@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca10b24353d34d0e972ddf8e0afeb7a, type: 3}
+  m_Name: Star
+  m_EditorClassIdentifier: 
+  Repetitions: 10
+  AngleOffsetBetweenreps: 0
+  StartWait: 0
+  EndWait: 1
+  settings:
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 0.1
+    PhaseOffset: 0
+    AngleOffset: 0
+    RadialMask: 0
+    MaskAngle: 0
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 0
+    PhaseOffset: 1
+    AngleOffset: -10
+    RadialMask: 0
+    MaskAngle: 0
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 0.1
+    PhaseOffset: 1
+    AngleOffset: 10
+    RadialMask: 0
+    MaskAngle: 0
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 0
+    PhaseOffset: 1
+    AngleOffset: -20
+    RadialMask: 0
+    MaskAngle: 0
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 0.1
+    PhaseOffset: 1
+    AngleOffset: 20
+    RadialMask: 0
+    MaskAngle: 0
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 0
+    PhaseOffset: 1
+    AngleOffset: -30
+    RadialMask: 0
+    MaskAngle: 0
+  - NumberOfBullets: 5
+    BulletSpeed: 10
+    CooldownAfterShot: 1
+    PhaseOffset: 1
+    AngleOffset: 30
+    RadialMask: 0
+    MaskAngle: 0
